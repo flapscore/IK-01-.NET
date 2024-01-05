@@ -1,0 +1,90 @@
+﻿@model IEnumerable<lab6.Models.Room>
+
+<h2>Available Rooms</h2> 
+
+
+<label for="type">Type:</label>
+<select name="type" id="type">
+    <option value="">All</option>
+    <option value="Single">Single</option>
+    <option value="Double">Double</option>
+    <option value="Suite">Suite</option> 
+</select>
+
+<label for="minPrice">Min Price:</label>
+<input type="number" name="minPrice" id="minPrice">
+
+<label for="maxPrice">Max Price:</label>
+<input type="number" name="maxPrice" id="maxPrice">
+
+<button type="button" class="btn" onclick="applyFilter()">Apply Filter</button>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room Number</th>
+            <th>Type</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="roomsList">
+        @foreach (var room in Model)
+        {
+            <tr>
+                <td>@room.Number</td>
+                <td>@room.Type</td>
+                <td>@room.Price</td>
+                <td><button onclick="bookRoom(@room.Id)" class="btn btn-primary">Book</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div id="bookingResult" class="alert alert-success" style="display:none;"></div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function applyFilter() {
+            var type = $('#type').val();
+            var minPrice = $('#minPrice').val();
+            var maxPrice = $('#maxPrice').val();
+
+            $.ajax({
+                url: '@Url.Action("GetAvailableRooms", "Booking")',
+                type: 'GET',
+                data: { type: type, minPrice: minPrice, maxPrice: maxPrice },
+                success: function (rooms) {
+                    // Clear list and add new elements
+                    var list = $('#roomsList');
+                    list.empty();
+                    $.each(rooms, function (index, room) {
+                        var row = '<tr><td>' + room.Number + '</td><td>' + room.Type + '</td><td>' + room.Price + '</td><td><button onclick="bookRoom(' + room.Id + ')" class="btn btn-primary">Book</button></td></tr>';
+                        list.append(row);
+                    });
+                },
+                error: function (error) {
+                    $("#bookingResult").removeClass("alert-success").addClass("alert-danger").text("An error occurred: " + error.responseText).show();
+                }
+            });
+        }
+
+        function bookRoom(roomId) {
+            $.ajax({
+                url: '@Url.Action("BookRoom", "Booking")',
+                type: 'POST',
+                data: { roomId: roomId },
+                success: function (response) {
+                    $("#bookingResult").removeClass("alert-danger").addClass("alert-success").text("Room booked successfully. Booking ID: " + response.bookingId).show();
+
+                    applyFilter();
+                },
+                error: function (error) {
+                    $("#bookingResult").removeClass("alert-success").addClass("alert-danger").text("An error occurred while booking the room: " + error.responseText).show();
+                }
+            });
+        }
+    </script>
+}

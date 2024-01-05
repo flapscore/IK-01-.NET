@@ -1,0 +1,75 @@
+/* Добавим стили для заголовка "Available Rooms" */
+h2 {
+    font-size: 24px;
+    color: #333; /* Черный цвет текста */
+    margin-bottom: 20px; /* Добавим отступ снизу */
+}
+
+/* Установим более приятный фон для таблицы */
+table {
+    background-color: #f8f8f8; /* Светло-серый цвет фона */
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%; /* Заполним всю ширину родительского элемента */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Добавим небольшую тень */
+}
+
+/* Стиль для заголовков таблицы */
+th {
+    background-color: #333; /* Черный цвет фона заголовков */
+    color: white; /* Белый цвет текста заголовков */
+    padding: 10px;
+    text-align: left; /* Выравнивание текста влево */
+}
+
+    /* Стиль для заголовков "Room Number", "Type" и "Price" */
+    th.room-header,
+    th.type-header,
+    th.price-header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+/* Добавим разный фон для четных и нечетных строк таблицы */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Светло-серый цвет фона для четных строк */
+}
+
+/* Изменим цвет текста в ячейках на черный */
+td {
+    padding: 10px;
+    color: #333;
+}
+
+/* Улучшим стиль кнопок */
+.btn {
+    background-color: orange;
+    color: white;
+    border: none; /* Уберем границы */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+
+    /* Изменим цвет кнопок при наведении */
+    .btn:hover {
+        background-color: #ff7f00;
+    }
+
+/* Стиль для формы фильтрации */
+#type, #minPrice, #maxPrice {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px; /* Добавим небольшой отступ между элементами */
+}
+
+/* Улучшим стиль успешных сообщений */
+.alert-success {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px; /* Добавим отступ сверху */
+}
