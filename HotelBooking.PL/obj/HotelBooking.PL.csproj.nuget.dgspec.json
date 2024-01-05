@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.PL\\HotelBooking.PL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.BLL\\HotelBooking.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.BLL\\HotelBooking.BLL.csproj",
+        "projectName": "HotelBooking.BLL",
+        "projectPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.BLL\\HotelBooking.BLL.csproj",
+        "packagesPath": "C:\\Users\\Danya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\HotelBooking.DAL.csproj": {
+                "projectPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\HotelBooking.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\HotelBooking.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\HotelBooking.DAL.csproj",
+        "projectName": "HotelBooking.DAL",
+        "projectPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\HotelBooking.DAL.csproj",
+        "packagesPath": "C:\\Users\\Danya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.PL\\HotelBooking.PL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.PL\\HotelBooking.PL.csproj",
+        "projectName": "HotelBooking.PL",
+        "projectPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.PL\\HotelBooking.PL.csproj",
+        "packagesPath": "C:\\Users\\Danya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.PL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.BLL\\HotelBooking.BLL.csproj": {
+                "projectPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.BLL\\HotelBooking.BLL.csproj"
+              },
+              "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\HotelBooking.DAL.csproj": {
+                "projectPath": "C:\\Users\\Danya\\source\\repos\\IK-01-.NET\\HotelBooking.DAL\\HotelBooking.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

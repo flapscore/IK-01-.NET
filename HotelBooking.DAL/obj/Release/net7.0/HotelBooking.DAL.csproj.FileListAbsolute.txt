@@ -1,0 +1,12 @@
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\bin\Release\net7.0\HotelBooking.DAL.deps.json
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\bin\Release\net7.0\HotelBooking.DAL.dll
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\bin\Release\net7.0\HotelBooking.DAL.pdb
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\HotelBooking.DAL.csproj.AssemblyReference.cache
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\HotelBooking.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\HotelBooking.DAL.AssemblyInfoInputs.cache
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\HotelBooking.DAL.AssemblyInfo.cs
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\HotelBooking.DAL.csproj.CoreCompileInputs.cache
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\HotelBooking.DAL.dll
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\refint\HotelBooking.DAL.dll
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\HotelBooking.DAL.pdb
+D:\.net\лабы даня\3\WebApplication7\HotelBooking.DAL\obj\Release\net7.0\ref\HotelBooking.DAL.dll
