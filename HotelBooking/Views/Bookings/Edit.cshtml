@@ -1,0 +1,30 @@
+﻿@model HotelBooking.Models.Booking
+
+<h2>Edit Booking</h2>
+
+@using (Html.BeginForm("Edit", "Bookings", FormMethod.Post, new { id = Model.Id }))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RoomId)
+        @Html.DropDownList("RoomId", null, new { @class = "form-control" }) // убедитесь, что передали список комнат из контроллера
+        @Html.ValidationMessageFor(model => model.RoomId)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.StartDate)
+        @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+        @Html.ValidationMessageFor(model => model.StartDate)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EndDate)
+        @Html.EditorFor(model => model.EndDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+        @Html.ValidationMessageFor(model => model.EndDate)
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+}
