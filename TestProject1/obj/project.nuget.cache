@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YgD5GgxXFhaIhda4EybckrgCmeM7yQZrtix+2a5tGjtQSIyYnA7iVEbAVfe3+VGw25TI2YLztOeiFnZQAXh9Ww==",
+  "success": true,
+  "projectFilePath": "D:\\.net\\лабы даня\\2\\ConsoleApp2\\TestProject1\\TestProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danya\\.nuget\\packages\\microsoft.codecoverage\\15.8.0\\microsoft.codecoverage.15.8.0.nupkg.sha512",
+    "C:\\Users\\Danya\\.nuget\\packages\\microsoft.net.test.sdk\\15.8.0\\microsoft.net.test.sdk.15.8.0.nupkg.sha512",
+    "C:\\Users\\Danya\\.nuget\\packages\\nunit\\3.10.1\\nunit.3.10.1.nupkg.sha512",
+    "C:\\Users\\Danya\\.nuget\\packages\\nunit3testadapter\\3.10.0\\nunit3testadapter.3.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

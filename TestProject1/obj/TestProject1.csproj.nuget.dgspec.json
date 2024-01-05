@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.net\\лабы даня\\2\\ConsoleApp2\\TestProject1\\TestProject1.csproj": {}
+  },
+  "projects": {
+    "D:\\.net\\лабы даня\\2\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\.net\\лабы даня\\2\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectName": "ConsoleApp2",
+        "projectPath": "D:\\.net\\лабы даня\\2\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\.net\\лабы даня\\2\\ConsoleApp2\\TestProject1\\TestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.net\\лабы даня\\2\\ConsoleApp2\\TestProject1\\TestProject1.csproj",
+        "projectName": "TestProject1",
+        "projectPath": "D:\\.net\\лабы даня\\2\\ConsoleApp2\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\Danya\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\лабы даня\\2\\ConsoleApp2\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Danya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\.net\\лабы даня\\2\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {
+                "projectPath": "D:\\.net\\лабы даня\\2\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.10.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
